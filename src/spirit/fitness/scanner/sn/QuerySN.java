@@ -139,7 +139,7 @@ public class QuerySN {
 			public void actionPerformed(ActionEvent arg0) {
 
 				if (salesOrderNo.getText().equals(""))
-					JOptionPane.showMessageDialog(null, "Please enter Sales Order Number.");
+					JOptionPane.showMessageDialog(null, "Please enter serial number.");
 				else {
 					EventQueue.invokeLater(new Runnable() {
 						public void run() {
