@@ -63,8 +63,7 @@ public class QuerySN {
 	}
 
 	public QuerySN() {
-		//loadingframe = new LoadingFrameHelper("Loading Data from Server...");
-		//loading = loadingframe.loadingSample("Loading Data from Server...");
+		
 		exceuteCallback();
 		orderInfo();
 	}
@@ -74,8 +73,7 @@ public class QuerySN {
 			public void run() {
 				try {
 					QuerySN window = new QuerySN();
-					// QueryResult window = new QueryResult();
-					// window.setContent(0, null);
+				
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
